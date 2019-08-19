@@ -15,7 +15,7 @@ npm install
 cd api
 npm install
 ```
-Edite o arquivo api/config/config.json com as informações do seu banco de dados MySQL.
+Edite o arquivo *api/config/config.json* com as informações do seu banco de dados MySQL.
 ```json
 {
     "development": {
@@ -27,18 +27,18 @@ Edite o arquivo api/config/config.json com as informações do seu banco de dado
     }
 }
 ```
-Na pasta api, utilize o sequinte comando para criar as tabelas no banco de dados:
+Na pasta *api*, utilize o sequinte comando para criar as tabelas no banco de dados:
 ```bash
 npx sequelize db:migrate
 ```
 
-## Rodando
-Na pasta api, utilize o comando:
+## Start
+Inicie a API entrando na pasta *api* e utilize o comando:
 ```bash
 npx nodemon app
 ```
-Na pasta raiz do projeto, utilize o comando:
+Na pasta raiz do projeto, inicie a interface com o comando:
 ```
 npm run serve
 ```
-Agora é só acessar http://localhost:8080 para utilizar o sistema.
+Depois de iniciar os dois, é só acessar http://localhost:8080 para utilizar o sistema. 🙂
