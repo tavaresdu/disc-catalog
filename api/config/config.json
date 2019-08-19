@@ -1,0 +1,9 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "disc_catalog",
+        "host": "172.17.0.2",
+        "dialect": "mysql"
+    }
+}
