@@ -5,13 +5,11 @@ module.exports = (sequelize, DataTypes) => {
         title: DataTypes.STRING,
         year: DataTypes.INTEGER,
         genre: DataTypes.STRING,
-        songs: DataTypes.TEXT,
-        collectionId: DataTypes.INTEGER
+        songs: DataTypes.TEXT
     }, {});
     Disc.associate = function (models) {
         Disc.belongsTo(models.Collection, {
-            foreignKey: 'collectionId',
-            as: 'collection'
+            foreignKey: 'collectionId'
         })
     };
     return Disc;

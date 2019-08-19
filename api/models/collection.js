@@ -5,9 +5,6 @@ module.exports = (sequelize, DataTypes) => {
         description: DataTypes.STRING
     }, {});
     Collection.associate = function (models) {
-        Collection.hasMany(models.Disc, {
-            as: 'discs'
-        })
     };
     return Collection;
 };
