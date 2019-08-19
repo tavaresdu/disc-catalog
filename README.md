@@ -33,7 +33,7 @@ npx sequelize db:migrate
 ```
 
 ## Start
-Inicie a API entrando na pasta *api* e utilize o comando:
+Entre na pasta *api* e inicie utilizando o comando:
 ```bash
 npx nodemon app
 ```
